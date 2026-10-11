@@ -11,3 +11,6 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# この台帳の非公開フォルダ(台帳の本体・鍵・受け取り箱)
+.regpusyutter_private/

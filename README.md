@@ -20,7 +20,7 @@ GET ?api=futures
 ## 置き方
 
 1. `index.php` を公開フォルダに置きます(PHP 8.0 以上・sodium。mbstring と curl は要りません)。
-2. 公開フォルダの**外**に、この台帳専用のフォルダを作ります。
+2. 公開フォルダの**外**に、この台帳専用のフォルダを作ります(既定の名前は `index.php` の1つ上の `.regpusyutter_private`。以前の `.pusyuuHiddenFiles` と同じく `.` で始めます)。
 3. `index.php` の先頭の `REGPUSYUTTER_HIDDEN_PATH` に、そのフォルダを `index.php` からの相対パスで書きます。
 4. 最初の管理者を受け取り箱から登録します(手順は [ADMIN_KEY_GUIDE.md](ADMIN_KEY_GUIDE.md))。
 5. `admin_service_put` で、どのサービスの台帳かを設定します。
